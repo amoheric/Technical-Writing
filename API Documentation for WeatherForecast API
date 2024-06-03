@@ -1,0 +1,32 @@
+API Documentation for a Web Service
+Title: API Documentation for WeatherForecast API
+
+Description: This API documentation details the endpoints, request methods, parameters, and responses for WeatherForecast API. It provides examples of how to make API calls and interpret the responses. The document is structured to help developers integrate the API into their applications seamlessly.
+
+Excerpt:
+
+### Get Current Weather
+**Endpoint:** `/weather/current`
+**Method:** GET
+**Parameters:**
+- `location` (string): The location to retrieve the weather data.
+- `units` (string, optional): The units of measurement. The default is 'metric'.
+
+**Example Request:**
+
+
+GET /weather/current?location=Atlanta&units=metric HTTP/1.1
+Host: api.weatherforecast.com
+
+
+
+**Example Response:**
+
+
+"location": "Atlanta",
+"temperature": 25.3,
+"humidity": 78,
+"conditions": "Clear sky"
+}
+
+
