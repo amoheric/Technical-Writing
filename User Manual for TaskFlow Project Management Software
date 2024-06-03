@@ -1,0 +1,14 @@
+User Manual for a Software Application
+Title: User Manual for TaskFlow Project Management Software
+
+Description: This user manual provides a comprehensive guide for using TaskFlow, a project management software. It includes step-by-step instructions on setting up projects, creating tasks, assigning team members, and tracking progress. Each section is accompanied by screenshots and diagrams to enhance understanding. The manual also includes troubleshooting tips and FAQs to help users resolve common issues.
+
+Excerpt:
+
+### Creating a New Project
+1. Navigate to the 'Projects' tab in the main menu.
+2. Click on the 'New Project' button.
+3. Enter the project name, description, and deadline.
+4. Select the team members to be assigned to this project.
+5. Click 'Save' to create the project.
+![Project Creation Screenshot](url-to-screenshot)
